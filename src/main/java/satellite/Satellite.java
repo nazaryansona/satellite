@@ -55,6 +55,7 @@ public class Satellite {
             if (x1 > x2 || y1 > y2) {
                 System.out.println("The two images are the same");
             } else {
+                x1++;x2++;y1++;y2++;
                 System.out.println(x1 + " " + y1 + " " + (x2) + " " + (y2));
             }
 
